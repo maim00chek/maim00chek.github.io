@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    display: block;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+}
+
+main{
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-color: #562;
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip:unset;
+}
+
+main img{
+    width: 100%;
+    height: calc(100vh - 100px);
+}
+
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: #000;
+}
